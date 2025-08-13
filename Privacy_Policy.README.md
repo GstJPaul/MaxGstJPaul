@@ -94,8 +94,8 @@ This bot is not intended for users under 13. We do not knowingly collect data fr
 
 For privacy-related questions or requests:
 - Contact the bot developer through Discord
-- Server: [Your support server]
-- Email: [Your contact email if available]
+- Server: [https://discord.gg/SCtGG3nchj]
+- Email: [itzgstjpaul@gmail.com]
 
 ## Changes to This Policy
 
