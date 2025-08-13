@@ -45,7 +45,6 @@ Based on our bot's functionality, we store:
 
 ## Data Storage and Security
 
-- Data is stored securely using Firebase/Firestore
 - All sensitive information is encrypted
 - Bot tokens and API keys are stored in secure environment variables
 - Regular security audits and updates
@@ -73,9 +72,7 @@ You have the right to:
 
 Our bot integrates with:
 - **Discord API** (required for bot functionality)
-- **OpenRouter/AI APIs** (for AI chat features)
-- **Firebase** (for data storage)
-- **UptimeRobot/BetterStack** (for monitoring)
+- **AI APIs** (for AI chat features)
 
 Each service has its own privacy policy.
 
