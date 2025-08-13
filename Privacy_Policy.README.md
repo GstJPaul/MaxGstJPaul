@@ -1,4 +1,4 @@
-# MaxGstJPaul
+# MaxGstJPaul:
 
 # Privacy Policy for Discord Bot
 
