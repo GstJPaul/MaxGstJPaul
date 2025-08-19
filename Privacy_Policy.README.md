@@ -81,7 +81,7 @@ You have the right to:
 - Request data deletion using `/clear_history` command or contacting the bot owner
 - Access your stored data (contact bot owner)
 - Opt out of AI chat features using `/unaichat` command
-- Disable Q&A responses (administrators can use `/unacpro`)
+- Disable Q&A responses (administrators can use `/unqa`)
 - Request data correction
 
 ## Third-Party Services
