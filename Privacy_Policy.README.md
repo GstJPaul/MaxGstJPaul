@@ -72,7 +72,7 @@ We **MAY** share data only when:
 - Necessary to prevent harm or illegal activity
 
 **Third-Party API Usage:**
-- AI chat responses are processed through OpenRouter API for real-time conversations
+- AI chat responses are processed through Ai API for real-time conversations
 - Message content is not stored by third-party services for training purposes
 
 ## Your Rights
