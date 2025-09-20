@@ -1,29 +1,33 @@
+# MaxGstJPaul Discord Bot - Privacy Policy
 
-# MaxGstJPaul Privacy Policy for Discord Bot
+**Last Updated:** September 20, 2025
 
-**Last Updated:** September 12, 2025
+## Overview
 
-## Information We Collect
+MaxGstJPaul is a comprehensive Discord server management bot that provides extensive functionality including sticky message systems, advanced moderation tools, AI chat integration, economy and gambling systems, virtual pet management, URL bypass services, and monitoring integrations. We are committed to protecting user privacy and handling data responsibly while providing these enhanced features.
 
-### Discord User Data
-- User IDs (for command functionality and user identification)
-- Guild (server) IDs and channel IDs
-- Message content (only when using AI chat, sticky messages, and Q&A features)
-- User interactions with bot commands and usage statistics
-- Member information for moderation purposes
+## Data Collection and Usage
 
-### Specific Data Storage
-Based on our bot's functionality, we store:
+### Message Content Data
+**What we access:** Message content in channels where our bot is active
+**Why we need it:** 
+- **Sticky message system**: Count messages to trigger intelligent reposting and manage persistent messages
+- **AI chat functionality**: Process user messages to generate contextual AI responses with conversation memory
+- **Command processing**: Understand slash commands, prefix commands (!sticky, !rsticky, !csticky), and user interactions
+- **URL bypass services**: Detect and process shortened URLs for bypass functionality
+- **Moderation tools**: Content analysis for spam detection and automated moderation responses
 
-**Economy System:**
-- User balance and transaction history
-- Gambling activity records
-- Daily reward claims and timestamps
+**How we handle it:**
+- ✅ Real-time processing for sticky message counting and command detection
+- ⚠️ AI chat: Stores recent conversation context in local JSON files (ai_memory_*.json) for conversational continuity
+- ✅ Message content for sticky system is not permanently stored beyond configuration data
+- ✅ Local processing only (except AI responses via OpenRouter API and URL bypass services)
+- ✅ Automatic cleanup of old conversation data when using `/clear_history` command
 
-**AI Chat System:**
-- Chat history in enabled channels for context (last 50 messages per channel)
-- User preferences for AI interactions
-- Conversation context for improved responses
+### Server Member Data
+**What we access:** Guild member information (usernames, roles, join dates, permissions, member status)
+**Why we need it:** 
+- **Administrative commands**: Kick, ban, unban, timeout, warn, and user information commands
 
 **Sticky Messages System:**
 - Sticky message content and channel associations
