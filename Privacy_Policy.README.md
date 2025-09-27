@@ -1,6 +1,7 @@
 # MaxGstJPaul Discord Bot - Privacy Policy
 
-**Last Updated:** September 20, 2025
+**Last Updated:** September 27, 2025  
+**Effective Date:** September 27, 2025
 
 ## Overview
 
@@ -13,16 +14,24 @@ MaxGstJPaul is a comprehensive Discord server management bot that provides exten
 **Why we need it:** 
 - **Sticky message system**: Count messages to trigger intelligent reposting and manage persistent messages
 - **AI chat functionality**: Process user messages to generate contextual AI responses with conversation memory
-- **Command processing**: Understand slash commands, prefix commands (!sticky, !rsticky, !csticky), and user interactions
-- **URL bypass services**: Detect and process shortened URLs for bypass functionality
-- **Moderation tools**: Content analysis for spam detection and automated moderation responses
+- **Command processing**: Understand user commands and interactions
 
 **How we handle it:**
-- ✅ Real-time processing for sticky message counting and command detection
-- ⚠️ AI chat: Stores recent conversation context in local JSON files (ai_memory_*.json) for conversational continuity
-- ✅ Message content for sticky system is not permanently stored beyond configuration data
-- ✅ Local processing only (except AI responses via OpenRouter API and URL bypass services)
-- ✅ Automatic cleanup of old conversation data when using `/clear_history` command
+- ✅ Real-time processing for sticky message counting
+- ⚠️ AI chat: Stores recent conversation context for continuity (auto-deleted after 30 days)
+- ✅ Message content for sticky system is not permanently stored
+- ✅ Local processing only (except AI responses via Ai API)
+
+### Server Member Data
+**What we access:** Guild member information (usernames, roles, join dates, permissions)
+**Why we need it:** 
+- Administrative commands (kick, ban, timeout, user info)
+- Role management and permission verification
+- Moderation logging and audit trails
+
+**How we handle it:**
+- ✅ Only accessed when requested via admin commands
+- ✅ Personal member data only accessed when requested via admin commands
 
 ### Server Member Data
 **What we access:** Guild member information (usernames, roles, join dates, permissions, member status)
