@@ -1,33 +1,35 @@
 # MaxGstJPaul Discord Bot - Privacy Policy
 
-**Last Updated:** September 27, 2025  
-**Effective Date:** September 27, 2025
+**Last Updated:** October 17, 2025  
+**Effective Date:** October 17, 2025
 
 ## Overview
 
-MaxGstJPaul is a comprehensive Discord server management bot that provides extensive functionality including sticky message systems, advanced moderation tools, AI chat integration, economy and gambling systems, virtual pet management, URL bypass services, and monitoring integrations. We are committed to protecting user privacy and handling data responsibly while providing these enhanced features.
+MaxGstJPaul is a comprehensive Discord server management bot that provides extensive functionality including sticky message systems, advanced moderation tools, AI chat integration, economy and gambling systems, virtual pet management, and more. We are committed to protecting user privacy and handling data responsibly while providing these enhanced features.
 
-## Data Collection and Usage
+**Important:** We have removed all tracking and analytics systems. Your interactions are no longer logged for analytics purposes.
 
-### Message Content Data
-**What we access:** Message content in channels where our bot is active
-**Why we need it:** 
-- **Sticky message system**: Count messages to trigger intelligent reposting and manage persistent messages
-- **AI chat functionality**: Process user messages to generate contextual AI responses with conversation memory
-- **Command processing**: Understand user commands and interactions
+## 1. Information We Collect
 
-**How we handle it:**
-- ✅ Real-time processing for sticky message counting
-- ⚠️ AI chat: Stores recent conversation context for continuity (auto-deleted after 30 days)
-- ✅ Message content for sticky system is not permanently stored
-- ✅ Local processing only (except AI responses via Ai API)
+### 1.1 Automatically Collected Data
 
-### Server Member Data
-**What we access:** Guild member information (usernames, roles, join dates, permissions)
-**Why we need it:** 
-- Administrative commands (kick, ban, timeout, user info)
-- Role management and permission verification
-- Moderation logging and audit trails
+When you use the Bot, we automatically collect:
+
+**Discord Identifiers:**
+- User IDs (Discord's unique identifier for users)
+- Server/Guild IDs (Discord's unique identifier for servers)
+- Channel IDs (for feature-specific storage)
+- Role IDs (for moderation and permission systems)
+
+**Message Content Data:**
+- **AI Chat Channels:** Message content in channels where AI chat is explicitly enabled by administrators
+- **Command Usage:** Message content when using Bot commands
+- **Sticky Messages:** Content of messages designated as sticky
+- **Q&A System:** Questions and answers set up by administrators
+
+**Activity Data:**
+- Economy transactions (virtual currency only)
+- Gambling game results (virtual currency only)
 
 **How we handle it:**
 - ✅ Only accessed when requested via admin commands
